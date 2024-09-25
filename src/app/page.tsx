@@ -154,15 +154,18 @@ export default function RestaurantMenu() {
               </div>
               <div className="mt-6">
                 <h3 className="text-lg font-semibold mb-2">{t('followUs')}</h3>
-                <div className="flex space-x-4">
-                  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-gray-900">
-                    <Facebook className="h-6 w-6" />
+                <div className="flex space-x-2 items-center">
+                  <a href="https://www.facebook.com/people/La-Vie/pfbid02yMYVQXqNSdFRAbiwRGTYpEynyXSf2heASYmbWWjZPtShMiFy6PGuaEqKDK8o9VBSl/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="">
+                    {/* <Facebook className="h-6 w-6" /> */}
+                    <Image src="https://www.svgrepo.com/show/183607/facebook.svg" alt="la vie facebook logo" width={30} height={30} className="" />
                   </a>
-                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gray-900">
-                    <Instagram className="h-6 w-6" />
+                  <a href="https://www.instagram.com/laviebursa/?igsh=MXBnM2RvdnlzYzZhcg%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="">
+                    {/* <Instagram className="h-6 w-6" /> */}
+                    <Image src="https://www.logo.wine/a/logo/Instagram/Instagram-Logo.wine.svg" alt="la vie instagram logo" width={50} height={50} className="" />
                   </a>
-                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-gray-900">
-                    <Twitter className="h-6 w-6" />
+                  <a href="https://www.yemeksepeti.com/restaurant/isj7/la-vie-dessert-and-coffee" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="">
+                    {/* <Twitter className="h-6 w-6" /> */}
+                    <Image src="https://seeklogo.com/images/Y/yemeksepeti-logo-835157C63D-seeklogo.com.png" alt="la vie yemek sepeti logo" width={40} height={40} className="" />
                   </a>
                 </div>
               </div>
