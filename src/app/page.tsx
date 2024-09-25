@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
-import { Coffee, Cake, IceCream, Utensils, Facebook, Instagram, Twitter, Home, Menu, Star, MessageSquare, ArrowLeft } from 'lucide-react'
+import { Coffee, Cake, IceCream, Utensils, Home, Menu, Star, MessageSquare, ArrowLeft } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { ScrollArea } from "@/components/ui/scroll-area"
